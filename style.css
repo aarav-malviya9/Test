@@ -1,79 +1,43 @@
-* {
+body {
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
-
-body {
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-}
-
-.container {
-  width: 90%;
-  max-width: 960px;
-  margin: auto;
-  padding: 20px 0;
+  background-color: #fff;
+  color: #222;
 }
 
 header {
-  background-color: #24292e;
-  color: #fff;
   text-align: center;
-  padding: 40px 0;
-}
-
-header h1 {
-  font-size: 2.5rem;
-}
-
-.tagline {
-  font-size: 1.2rem;
-  color: #c9d1d9;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
 }
 
 .navbar {
-  background-color: #2f363d;
+  text-align: center;
   padding: 10px 0;
+  background-color: #eaeaea;
 }
 
 .navbar a {
-  color: #ffffff;
-  text-decoration: none;
   margin: 0 15px;
-  font-weight: 600;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  color: #007acc;
 }
 
-section {
-  margin: 40px 0;
-}
-
-h2 {
-  color: #24292e;
-  margin-bottom: 15px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #0366d6;
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 footer {
-  background-color: #e1e4e8;
   text-align: center;
   padding: 20px 0;
+  background-color: #f5f5f5;
   font-size: 0.9rem;
 }
